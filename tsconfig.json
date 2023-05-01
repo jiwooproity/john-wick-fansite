@@ -1,21 +1,22 @@
 {
-    "compilerOptions": {
-        "baseUrl": "./",
-        "outDir": "./dist",
-        "target": "ES5",
-        "module": "ESNext",
-        "jsx": "react-jsx",
-        "noImplicitAny": true,
-        "paths": {
-            "*": [
-                "node_modules/*/index",
-                "node_modules/*/dist/index",
-                "node_modules/*/src/index",
-                "node_modules/*/lib/sinon",
-            ],
-            "@/*": ["src/*/index"],
-        }
-    },
-    "include": ["src"],
-    "exclude": ["node_modules"]
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "target": "ES5",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "noImplicitAny": true,
+    "paths": {
+      "*": [
+        "node_modules/*/index",
+        "node_modules/*/dist/index",
+        "node_modules/*/src/index",
+        "node_modules/*/lib/sinon"
+      ],
+      "@/*": ["src/*/index"],
+      "@Components": ["src/components/index.ts"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }

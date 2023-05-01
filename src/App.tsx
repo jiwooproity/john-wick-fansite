@@ -1,9 +1,7 @@
+import { Main } from "@Components";
+
 const App = () => {
-    return (
-        <div className="container">
-            <div className="background"></div>
-        </div>
-    )
-}
+  return <Main />;
+};
 
 export default App;
